@@ -1,10 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Passion+One);
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
 body {
-    background: #d30215;
+    background: black;
     overflow: hidden;
     margin: 0;
-    font-family: 'Passion One', impact;
+    font-family: 'Alfa Slab One', cursive;
 }
 
  .bg {
@@ -13,7 +13,7 @@ body {
 	 right: 0;
 	 bottom: 0;
 	 left: 0;
-	 background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/28359/marvel.jpg');
+	 background: url('backgroundsmall.jpg');
 	 animation: fade 6s steps(30) forwards;
 }
  #retrigger--1:checked ~ .bg {
@@ -100,7 +100,8 @@ body {
 	 transform-style: preserve-3d;
 	 transform: translate(-50%, -50%);
 	 font-size: 9em;
-	 letter-spacing: -0.06em;
+	 text-align: center;
+	 
 	 animation: hide 8s linear forwards;
 	 padding: 0 0.2em;
 	 line-height: 1;
@@ -114,7 +115,7 @@ body {
 }
  .logo:nth-child(1) {
 	 animation: change 8s steps(30) forwards;
-	 background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/28359/marvel.jpg');
+	 background: url('backgroundsmall.jpg');
 	 background-size: 2000px auto;
 	 -webkit-background-clip: text;
 	 -webkit-filter: drop-shadow(0 -1px 0 black) drop-shadow(0 1px 0 black) drop-shadow(1px 0 0 black) drop-shadow(-1px 0 0 black);

@@ -115,7 +115,7 @@ body {
 }
  .logo:nth-child(1) {
 	 animation: change 8s steps(30) forwards;
-	 background: url('backgroundsmall.jpg');
+	 background: url('3.jpg');
 	 background-size: 2000px auto;
 	 -webkit-background-clip: text;
 	 -webkit-filter: drop-shadow(0 -1px 0 black) drop-shadow(0 1px 0 black) drop-shadow(1px 0 0 black) drop-shadow(-1px 0 0 black);
@@ -224,7 +224,8 @@ body {
 		 border-color: white;
 	}
 }
- @keyframes change--2 {
+
+@keyframes change--2 {
 	 0% {
 		 background-position: 0 0;
 		 color: rgba(150, 150, 0, 0.4);
@@ -244,12 +245,13 @@ body {
 		 border-color: white;
 	}
 }
- .retrigger {
-	 position: absolute;
-	 left: -5em;
-	 opacity: 0;
+.retrigger {
+	position: absolute;
+	left: -5em;
+	opacity: 0;
 }
- @keyframes buttons--1 {
+
+@keyframes buttons--1 {
 	 0%, 99% {
 		 visibility: hidden;
 	}

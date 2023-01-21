@@ -14,7 +14,7 @@ body {
 	 bottom: 0;
 	 left: 0;
 	 background: url('3.jpg');
-	 animation: fade 6s steps(30) forwards;
+	 animation: fade 15s steps(30) forwards;
 }
  #retrigger--1:checked ~ .bg {
 	 animation-name: fade--1;
@@ -114,7 +114,7 @@ body {
 	 animation-name: hide--2;
 }
  .logo:nth-child(1) {
-	 animation: change 120s steps(30) forwards;
+	 animation: change 240s steps(30) forwards;
 	 background: url('3.jpg');
 	 background-size: 2000px auto;
 	 -webkit-background-clip: text;
